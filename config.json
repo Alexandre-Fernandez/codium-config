@@ -1,0 +1,132 @@
+{
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"editor.suggestSelection": "first",
+	"editor.foldingHighlight": false,
+	"editor.fontFamily": "\"Fira Code\", Consolas, \"Courier New\", monospace",
+	"editor.fontLigatures": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.tree.indent": 14,
+	"workbench.tree.renderIndentGuides": "always",
+	"terminal.integrated.tabs.enabled": true,
+	"editor.colorDecorators": false,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.rulers": [80],
+	"workbench.colorCustomizations": {
+		"editorRuler.foreground": "#282828"
+	},
+	"workbench.editor.labelFormat": "short",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.highlightActiveBracketPair": false,
+	"php.suggest.basic": false,
+	"emmet.includeLanguages": {
+		"php": "html",
+		"tpl": "html"
+	},
+	"editor.linkedEditing": true,
+	"extensions.ignoreRecommendations": true,
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"php",
+		"blade",
+		"ejs",
+		"jinja",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"plaintext",
+		"markdown",
+		"vue",
+		"liquid",
+		"erb",
+		"lang-cfml",
+		"cfml",
+		"HTML (EEx)",
+		"HTML (Eex)",
+		"plist",
+		"twig",
+		"svelte",
+		"tpl"
+	],
+	"javascript.preferences.quoteStyle": "double",
+	"typescript.preferences.quoteStyle": "double",
+	"typescript.format.semicolons": "remove",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.semi": false,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"npm.packageManager": "pnpm",
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.html.tagComplete.enable": false,
+	"svelte.plugin.html.renameTags.enable": false,
+	"svelte.ask-to-enable-ts-plugin": false,
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+
+	"css.validate": false,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"tailwindCSS.includeLanguages": {
+		"svelte": "html"
+	},
+	"redhat.telemetry.enabled": false,
+	"files.associations": {
+		"*.env": "env",
+		"*.env.local": "env",
+		"*.env.development": "env",
+		"*.env.production": "env",
+		"*.tpl": "twig"
+	},
+	"commentAnchors.workspace.excludeFiles": "**/{node_modules,.git,.idea,target,out,build,dist,vendor,public,cache}/**/*",
+	"[php]": {
+		"editor.defaultFormatter": "junstyle.php-cs-fixer"
+	},
+	"php-cs-fixer.onsave": true,
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"json.schemas": [
+		{
+			"fileMatch": ["/package.json"],
+			"url": "https://json.schemastore.org/package",
+			"schema": true
+		},
+		{
+			"fileMatch": ["/tsconfig.json"],
+			"url": "https: //json.schemastore.org/tsconfig",
+			"schema": true
+		}
+	],
+	"eslint.enable": true,
+	"eslint.alwaysShowStatus": true,
+	"eslint.packageManager": "npm",
+	"eslint.probe": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"html",
+		"vue",
+		"markdown",
+		"svelte"
+	],
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"svelte"
+	]
+}
+
