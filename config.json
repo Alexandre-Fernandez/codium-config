@@ -63,6 +63,10 @@
 	"prettier.semi": false,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
+	"prettier.documentSelectors": ["**/*.astro"],
+	"[astro]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"npm.packageManager": "pnpm",
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
@@ -72,7 +76,7 @@
 	"svelte.plugin.html.renameTags.enable": false,
 	"svelte.ask-to-enable-ts-plugin": false,
 	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
-
+	"svelte.plugin.svelte.note-new-transformation": false,
 	"css.validate": false,
 	"editor.quickSuggestions": {
 		"strings": true
@@ -119,16 +123,18 @@
 		"html",
 		"vue",
 		"markdown",
-		"svelte"
+		"svelte",
+		"astro"
 	],
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
 		"typescript",
 		"typescriptreact",
-		"svelte"
+		"svelte",
+		"astro"
 	],
+	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
 	"typescript.preferences.importModuleSpecifier": "non-relative",
 	"javascript.preferences.importModuleSpecifier": "non-relative"
 }
-
