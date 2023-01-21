@@ -139,15 +139,15 @@
 	"javascript.preferences.importModuleSpecifier": "non-relative",
 	"terminal.integrated.profiles.linux": {
 		"bash": {
-		  "path": "/usr/bin/flatpak-spawn",
-		  "args": ["--host", "--env=TERM=xterm-256color", "bash"]
+			"path": "/usr/bin/flatpak-spawn",
+			"args": ["--host", "--env=TERM=xterm-256color", "bash"]
 		},
 		"zsh": {
-		  "path": "/usr/bin/flatpak-spawn",
-		  "args": ["--host", "--env=TERM=xterm-256color", "zsh"]
+			"path": "/usr/bin/flatpak-spawn",
+			"args": ["--host", "--env=TERM=xterm-256color", "zsh"]
 		},
 		"flatpak": {
-		  "path": "/bin/bash"
+			"path": "/bin/bash"
 		}
 	},
 	"terminal.integrated.defaultProfile.linux": "zsh",
