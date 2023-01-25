@@ -137,6 +137,9 @@
 	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
 	"typescript.preferences.importModuleSpecifier": "non-relative",
 	"javascript.preferences.importModuleSpecifier": "non-relative",
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
 	"terminal.integrated.profiles.linux": {
 		"bash": {
 			"path": "/usr/bin/flatpak-spawn",
