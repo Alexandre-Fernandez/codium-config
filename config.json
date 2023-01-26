@@ -140,6 +140,9 @@
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
 	"terminal.integrated.profiles.linux": {
 		"bash": {
 			"path": "/usr/bin/flatpak-spawn",
