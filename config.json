@@ -108,7 +108,7 @@
 		},
 		{
 			"fileMatch": ["/tsconfig.json"],
-			"url": "https: //json.schemastore.org/tsconfig",
+			"url": "https://json.schemastore.org/tsconfig",
 			"schema": true
 		}
 	],
