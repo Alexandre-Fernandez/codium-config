@@ -64,10 +64,10 @@
 	"typescript.format.semicolons": "remove",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
-	"prettier.arrowParens": "avoid",
 	"prettier.semi": false,
-	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
 	"prettier.documentSelectors": ["**/*.astro"],
 	"[astro]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -143,7 +143,8 @@
 	"typescript.preferences.importModuleSpecifier": "non-relative",
 	"javascript.preferences.importModuleSpecifier": "non-relative",
 	"[rust]": {
-		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.rulers": [100]
 	},
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
