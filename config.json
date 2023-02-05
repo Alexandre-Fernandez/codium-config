@@ -15,10 +15,13 @@
 	"editor.detectIndentation": false,
 	"editor.insertSpaces": false,
 	"editor.rulers": [80],
+	"editor.inlayHints.fontSize": 12,
 	"workbench.colorCustomizations": {
 		"editorRuler.foreground": "#282828",
-		"editorInlayHint.typeForeground": "#98a2b3",
-		"editorInlayHint.typeBackground": "#282828"
+		"editorInlayHint.background": "#28282800",
+		"editorInlayHint.foreground": "#5b6069",
+		"editorInlayHint.typeBackground": "#102924",
+		"editorInlayHint.typeForeground": "#bac7db"
 	},
 	"workbench.editor.labelFormat": "short",
 	"javascript.updateImportsOnFileMove.enabled": "always",
