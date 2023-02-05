@@ -16,7 +16,9 @@
 	"editor.insertSpaces": false,
 	"editor.rulers": [80],
 	"workbench.colorCustomizations": {
-		"editorRuler.foreground": "#282828"
+		"editorRuler.foreground": "#282828",
+		"editorInlayHint.typeForeground": "#98a2b3",
+		"editorInlayHint.typeBackground": "#282828"
 	},
 	"workbench.editor.labelFormat": "short",
 	"javascript.updateImportsOnFileMove.enabled": "always",
