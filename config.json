@@ -19,9 +19,9 @@
 	"workbench.colorCustomizations": {
 		"editorRuler.foreground": "#282828",
 		"editorInlayHint.background": "#28282800",
-		"editorInlayHint.foreground": "#5b6069",
+		"editorInlayHint.foreground": "#C8C8C8",
 		"editorInlayHint.typeBackground": "#102924",
-		"editorInlayHint.typeForeground": "#bac7db"
+		"editorInlayHint.typeForeground": "#C8C8C8"
 	},
 	"workbench.editor.labelFormat": "short",
 	"javascript.updateImportsOnFileMove.enabled": "always",
@@ -148,5 +148,8 @@
 	},
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml"
 	}
 }
