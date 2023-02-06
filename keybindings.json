@@ -1,0 +1,6 @@
+[
+	{
+		"key": "ctrl+[Backquote]",
+		"command": "workbench.action.terminal.toggleTerminal"
+	}
+]
