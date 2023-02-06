@@ -1,3 +1,5 @@
+#!/bin/bash
+
 codium --install-extension astro-build.astro-vscode
 codium --install-extension aswinkumar863.smarty-template-support
 codium --install-extension bmewburn.vscode-intelephense-client
