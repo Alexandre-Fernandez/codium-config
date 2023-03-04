@@ -23,5 +23,6 @@ codium --install-extension serayuzgur.crates
 codium --install-extension svelte.svelte-vscode
 codium --install-extension syler.sass-indented
 codium --install-extension tamasfe.even-better-toml
+codium --install-extension tomoki1207.pdf
 codium --install-extension Vue.volar
 codium --install-extension yandeu.five-server
