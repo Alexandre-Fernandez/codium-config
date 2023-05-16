@@ -154,5 +154,9 @@
 	},
 	"[toml]": {
 		"editor.defaultFormatter": "tamasfe.even-better-toml"
-	}
+	},
+	"eslint.workingDirectories": [
+        { "directory": "apps/*", "changeProcessCWD": true },
+        { "directory": "packages/*", "changeProcessCWD": true }
+    ]
 }
